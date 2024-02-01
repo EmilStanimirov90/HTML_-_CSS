@@ -1,0 +1,97 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css);
+
+* {
+    padding: 0;
+    margin: 0;
+}
+html { 
+    font: 14px/1.5 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body, table {
+    font: inherit;
+    padding: 4em;
+}
+
+i{
+    margin-right: 3px;
+}
+a{
+    text-decoration: none;
+}
+
+nav{
+    background-color: #eee;
+    border: 1px solid #ccc;
+    padding: 2em;
+    margin-bottom: 3em;
+    border-radius: 5px;
+}
+nav li {
+    display: block;
+    list-style: none outside;
+}
+
+nav a{
+    color: rgb(255, 79, 79);
+    font-weight: 600;
+}
+
+nav a i {
+    color: rgb(255, 79, 79);
+    
+}
+
+/* Button styles */
+p{
+    display: inline-block;
+}
+button {
+    line-height: 1px;
+    padding: 0.6em 1em;
+    border: 2px solid rgba(255,255,255,0.5);
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: rgb(255, 162, 255);
+    border-color: rgb(255, 162, 255);
+}
+.shopping {
+    background-color: rgb(86, 197, 86);
+}
+
+.info{
+    background-color: rgb(51, 115, 187);
+}
+
+.delete{
+    background-color: rgb(238, 37, 37);
+}
+
+/*extra examples*/
+
+ol.todo{
+    margin-top: 3em;
+    color: rgb(1, 203, 218);
+    font-weight: 400;
+    
+}
+
+ol.todo li{
+    display: block;
+    list-style: none outside;
+}
+
+ol.todo li:before {
+    display: inline-block;
+    content: '\f10c';
+    font-family: "Font Awesome 6 Free";
+    margin-right: 1em;
+    opacity: 0.5;
+}
+
+ol.todo li.done:before {
+    content: '\f14a';
+}
