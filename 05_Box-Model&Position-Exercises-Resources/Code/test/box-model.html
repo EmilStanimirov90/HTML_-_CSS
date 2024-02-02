@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model</title>
+    <style>
+        body{
+            padding: 2em;
+        }
+
+        div{
+            padding: 2em;
+            border: 1px dashed rgba(0, 0, 0, 0.432);
+        }
+
+        .outside{
+            background-color: lightsalmon;
+        }
+
+        .border {
+            background-color: orange;
+
+        }
+
+        .padding{
+            background-color: lightgreen;
+        }
+
+        .content{
+            background-color: lightblue;
+        }
+
+        .box{
+            border: 2px solid black;
+            
+            padding: 1em;
+            line-height: 1;
+            margin: 2em auto;
+            max-width: 400px;
+
+        }
+
+        span{
+            display: block;
+            text-align: center;
+            margin: 0 auto;
+            font-weight: 600;
+            color: rgb(235, 37, 235);
+            font-family: sans-serif
+        }
+    </style>
+</head>
+<body>
+    <div class="outside">
+        <span>margin</span>
+        <div class="border">
+            <span>border</span>
+            <div class="padding">
+                <span>padding</span>
+                <div class="content">
+                    <span>content</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="box">
+        text goes here<br>
+        new line < br > tag
+
+    </div>
+</body>
+</html>
