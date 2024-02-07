@@ -1,0 +1,35 @@
+html {
+    font-family: Helvetica, sans-serif;
+    background-color: rgb(238, 238, 238);
+    color: rgb(51, 51, 51)  ;
+    font-size: 14px;
+}
+
+article, aside{
+    font: inherit;
+
+}
+article {
+    width: 550px;
+
+}
+img{
+    width: 450px;
+    height: auto;
+}
+
+aside {
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    margin: 0 1em;
+}
+aside, article  {
+    display: inline-block;
+}
+footer {
+    font-size: 12px;
+}
+aside ul{
+    font-size: 12px;
+}

@@ -11,9 +11,9 @@ article h2 {
 
 article p {
     color: #eee;
-    font-family: Arial, sans-serif;
+    font: Arial, sans-serif;
     line-height: 24px;
-    padding: 20px;
+    padding: 10px;
     text-indent: 30px;
 }
 
@@ -33,5 +33,5 @@ article span {
     background-color: #fff;
     display: block;
     position: relative;
-    top: 11px;
+    top: -11px;
 }
