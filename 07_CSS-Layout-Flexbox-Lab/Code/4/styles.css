@@ -1,7 +1,8 @@
 .flex-container {
+  display: flex;
   background-color: DodgerBlue;
   width: 300px;
-  
+  justify-content: center;
 }
 
 .flex-container > div {

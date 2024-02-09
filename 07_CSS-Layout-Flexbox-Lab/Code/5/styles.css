@@ -1,7 +1,9 @@
 .flex-container {
+  display: flex;
   background-color: DodgerBlue;
   width: 300px;
-  
+  height: 200px;
+  align-items: center;
 }
 
 .flex-container > div {
