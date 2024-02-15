@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    
+    flex-wrap: wrap;
+    gap: 1em;
+    
+    padding: 2em;
+}
+
+header{
+    background-color: lightblue;
+    flex: 1 0 100%;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+header > h1 {
+    font-size: 50px;
+}
+
+aside{
+    
+    width: 15%;
+    background-color: lightblue;
+    padding: 1em;
+    border-radius: 0.3em;
+
+}
+aside ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+aside ul li {
+    list-style: none;
+    
+}
+
+
+main{
+    width: calc(85% - 1em);
+    background-color: lightblue;
+    padding: 1em;
+    border-radius: 0.3em;
+
+}
+main h2{
+    font-size: 50px;
+}
+main ul{
+    padding-left: 1em;
+}
+
+footer{
+    background-color: lightblue;
+    flex: 1 0 100%;
+    padding: 1em;
+    border-radius: 0.3em;
+}
+@media (max-width: 500px) {
+    body{
+        flex-direction: column;
+    }
+
+    aside{
+        width: 100%;
+        flex: 1 0 100%;
+    }
+    
+    main{
+        width: 100%;
+        flex: 1 0 100%;
+    }
+}
+
