@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo</title>
+</head>
+<body>
+    <h1>Working with forms</h1>
+    <h2>Volume sidescroll</h2>
+    <p>
+        <input type="range" name="volume" id="" min="0" max="15">
+        <label for="">Volume</label>
+    </p>
+    <h2>Login</h2>
+    <form action="#">
+        <input type="text" name="username" id="login-username" placeholder="Username" required>
+        <input type="password" name="password" id="login-password" placeholder="Password" required>
+        <input type="submit" name="" id="" value="Login">
+    </form>
+    <h2> Fieldset and Legend</h2>
+    <form action="#">
+        <fieldset>
+            <legend>Required input</legend>
+                <p>
+                    <input type="email" name="" id="" required>
+                    
+                </p>
+               
+        </fieldset>
+        <p>
+            <input type="submit" name="" id="" value="Let's go?">
+        </p>
+
+    </form>
+   
+    <fieldset>        
+        <legend> Set of elements: </legend>
+    
+    
+            <select name="city" id="cityselect">
+                <option value="">Please pick a city:</option>
+                <option value="sof-123" selected>Sofia</option>
+                <option value="sof-123">Plovdiv</option>
+            </select>
+            <form action="">
+                <p>Pick your poison:</p>
+                <input type="checkbox" name="poison2" id="" value="poison2option1" id="poison-option1">
+                <label for="poison-option1"> Option 1 - beer</label>
+                <input type="checkbox" name="poison2" id="" value="poison2option2" id="poison-option2">
+                <label for="poison-option2"> Option 2 - rakia</label>
+                <input type="checkbox" name="poison2" id="" value="poison2option3" id="poison-option3">
+                <label for="poison-option3"> Option 3 - another!</label>
+                <p>
+                    <input type="submit" value="Let's go">
+                </p>
+            </form>
+    </fieldset>
+    
+    <h2> Select tag - dropdown menu</h2>
+    <select name="city" id="cityselect">
+        <option value="">Please pick a city:</option>
+        <option value="sof-123" selected>Sofia</option>
+        <option value="sof-123">Plovdiv</option>
+    </select>
+    <h2>Radio checkbox</h2>
+
+    <form action="">
+        <p>Pick your poison:</p>
+        <input type="checkbox" name="poison2" id="" value="poison2option1" id="poison-option1">
+        <label for="poison-option1"> Option 1 - beer</label>
+        <input type="checkbox" name="poison2" id="" value="poison2option2" id="poison-option2">
+        <label for="poison-option2"> Option 2 - rakia</label>
+        <input type="checkbox" name="poison2" id="" value="poison2option3" id="poison-option3">
+        <label for="poison-option3"> Option 3 - another!</label>
+        <p>
+            <input type="submit" value="Let's go">
+        </p>
+    </form>
+    <h2>Radio buttons</h2>
+
+    <form action="">
+        <p>Pick your poison:</p>
+        <input type="radio" name="poison" id="" value="option1" id="poison-option1">
+        <label for="poison-option1"> Option 1 - beer</label>
+        <input type="radio" name="poison" id="" value="option2" id="poison-option2">
+        <label for="poison-option2"> Option 2 - rakia</label>
+        <input type="radio" name="poison" id="" value="option3" id="poison-option3" checked>
+        <label for="poison-option3"> Option 3 - another!</label>
+        <p>
+            <input type="submit" value="Let's go">
+        </p>
+    </form>
+
+    <h2>Search by Google</h2>
+    <form action="https://www.google.com/search" method="get">
+        <label for="search-field"> Search for:</label>
+        <input type="text" id="search-field" value="Google search" name="q">
+        <input type="submit" value="Search">
+    </form>
+
+   
+
+    
+</body>
+</html>
