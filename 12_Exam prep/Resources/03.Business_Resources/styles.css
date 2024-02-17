@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif");
+@import url("https://fonts.googleapis.com/css?family=PT+Sans:400,700");
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 20px/1.5 "PT Sans", sans-serif
+}
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    
+    background-position: top center;
+    background-size: 100%;
+}
+
+h1, h2, h3, h4 ,h5 ,h6{
+    font-family: "PT Serif";
+}
+
+
+.site-section.banner h2{
+    font-size: 3.4em;
+    font-weight: normal;
+    line-height: 1.26;
+    margin-bottom: 1rem;
+}
+.site-section.banner p{
+    padding-bottom: 8em;
+    font-size: 1.2em;
+    max-width: 39.5rem;
+
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+     
+}
+
+.site-section{
+    padding: 4em;
+}
+
+.site-section.banner .container{
+    color: white;
+    
+}
+
+.site-header{
+    display: flex;
+    justify-content: space-between;
+}
+.site-header nav ul{
+    gap: 2em;
+    display: flex;
+    
+}
+.site-header nav li{
+    list-style: none;
+
+}
+
+.site-header nav li a{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.site-title a{
+    display: block;
+    width: 130px;
+    height: 110px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url("images/logo.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.site-section.column{
+    border-bottom: 2px solid grey;
+    background-color: white;
+    
+}
+.site-section.partners, .site-section.sponsors{
+    background-color: white;
+    text-align: center;
+}
+
+
+
+.site-footer{
+    font-family: "PT Sans";
+    color: white;
+    background-color: #171720;
+    
+    
+}
+
+.site-footer a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: white;
+    line-height: 2;
+    opacity: 50%;
+}
+
+
+.site-footer li{
+    list-style: none;
+}
+
+.site-footer h4{
+    padding-bottom: 2em;
+    flex: 1 0 auto;
+}
+
+.column-container{
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+}
+
+.site-footer:last-child{
+    border-top: 1px solid rgba(255, 255, 255, 0.24);
+    text-transform: none;
+
+}
