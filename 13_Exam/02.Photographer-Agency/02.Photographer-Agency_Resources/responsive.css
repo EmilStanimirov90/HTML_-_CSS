@@ -1,0 +1,124 @@
+@media (max-width: 600px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex: 1 0 100%;
+
+    }
+
+    header nav{
+        margin: 0;
+        justify-content: center;
+    }
+    header nav ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0.5em;
+
+    }
+
+    .header-title{
+        padding: 0.5em 1em;
+
+    }
+    .header-title h1{
+        font-size: 2.2em;
+        padding-bottom: 0.5em;
+    }
+    .header-title p {
+        font-size: 1.1em;
+        font-weight: 400;
+    }
+
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .choose-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .choose-us ul{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 60%;
+        gap: 1em;
+
+    }
+    .choose-us ul li{
+        display: flex;
+        
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .choose-us ul li img{
+        display: block;
+        max-width: 35%;
+        height: auto;
+    }
+    .choose-us ul li h4{
+        padding-top: 0.3em ;
+    }
+
+    .team-description-wrapper, .about-us{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    .about-us{
+        width: 75%;
+    }
+
+    .about-us p:nth-child(3){
+        margin: 0;
+    }
+    
+    .team-description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+   
+        
+    .team-description-wrapper ul{
+        display: flex;
+        justify-content: space-between;
+
+    }
+    .team-description-wrapper ul li{
+        max-width: 40%;
+    }
+
+    .team-description-wrapper ul li img{
+        padding-bottom: 0.5em;
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .team-description-wrapper ul li p{
+        font-size: 0.75em;
+    }
+}

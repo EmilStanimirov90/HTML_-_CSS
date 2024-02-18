@@ -1,0 +1,230 @@
+@import url(https://fonts.googleapis.com/css2?family=Karla&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Cormorant+Infant&display=swap);
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: 18px/1.5 "Karla", sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Cormorant Infant", serif;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+h2{
+    font-size: 58px;
+}
+
+body {
+    background-image: url(images/poster.jpg);
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size: 100%;
+    background-color: grey;
+    background-blend-mode: multiply;
+    
+}
+
+header {
+    padding: 2em 3em;
+    display: flex;
+    justify-content: space-between;
+
+}
+header nav ul {
+    display: flex;
+    gap: 3em;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .logo a {
+
+    display: block;
+    width: 91px;
+    height: 49px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url("images/logo.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.container {
+    max-width: 950px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner {
+    padding: 8em 0 ;
+}
+.banner h1 {
+    color: white;
+}
+
+.banner p {
+    color: white;
+    padding-top: 6em;
+    
+}
+
+.beige {
+    background-color: #f8f0e9;
+}
+
+.red {
+    background-color: #e14747;
+
+}
+
+.testimonial .container{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    
+}
+
+.testimonial p:first-child{
+    align-self: flex-start;
+    
+}
+
+.testimonial p:last-child{
+    font-size: 58px;
+    font-family: "Cormorant Infant", serif;
+    font-style: italic;
+    font-weight: bold;
+    line-height: 1;
+    text-align: left;
+    padding: 1em 0;
+
+}
+
+.articles .container img{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.support {
+    padding: 4em 0;
+    text-align: center;
+
+}
+
+.support p{
+    color: white;
+}
+
+.support p:first-child{
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 1.5em;
+}
+     
+
+.articles .container{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    padding: 4em 0;
+    gap: 4em;
+    justify-content: space-evenly;
+
+}
+
+.articles p{
+    text-align: left;
+}
+
+.button {
+    background-color: white;
+    padding: 0.5em 1em;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 0.2em;
+    font-size: 0.8em;
+
+}
+.left-button{
+    align-self: flex-start;
+}
+
+.local-guide .container{
+    display: flex;
+    flex-direction: column;
+    padding: 4em 0;
+    gap: 2em;
+    justify-content: space-evenly;
+
+}
+
+.local-guide h2{
+    color: white;
+}
+
+.local-guide p{
+    color: white;
+    padding: 2em 0;
+}
+
+.local-guide div a{
+    background-color: #fad87a;
+    padding: 1em 1.5em;
+    text-decoration: none;
+    color: black;
+    border-radius: 2em;
+    font-size: 0.8em;
+
+}
+
+footer{
+    
+    flex-direction: column;
+    background-color: #352b2a;
+    padding: 2em 6em;
+    
+}
+
+footer a{
+    display: block;
+    width: 78px;
+    height: 42px;
+    overflow: hidden;
+    text-indent: -200vw;
+    background-image: url("images/logo.webp");
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 2em 0;
+}
+
+footer p{
+    color: white;
+    font-size: 0.8em;
+    padding: 1em 0;
+}
+
+footer p:last-child{
+    opacity: 30%;
+    font-size: 0.7em;
+}
